@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="cadUsuario" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+  <form name="cadUsuario" action="" method="post">
+    <fieldset style="width: 70%;">
+        <legend> Cadastro de Usuário </legend>
+          <p>
+        <label for="txNome"> Nome Completo: </label>
+        <input type="text" id="txtNome" nome="nCompleto">
+          </p>
+          <p>
+        <label for="texSenha"> Crie uma senha:</label>
+        <input type="password" name="senha" id="txtSenha">
+         </p>
+        <input type="radio" id="iniciante" name="experiencia " value="iniciantes">
+        <label for="iniciante">Iniciante</label>
+
+        <input type="radio" id="intermediario " name="experiencia" value="Intermediario">
+        <label for="intermediario ">Intermediario </label>
+
+       <input type="radio" id="avançado" name="experiencia" value="avançado">
+       <label for="avançado">Avançado</label>
+
+
+         <p> Linguagem de Programação Favoritas </p>
+       <input type="checkbox" name="lp" values="java"> Java <br> 
+       <input type="checkbox" name="lp" values="python"> Python <br>
+       <input type="checkbox" name="lp" values="php"> PHP <br> 
+       <input type="checkbox" name="lp" values="c"> C# <br>
+       <input type="checkbox" name="lp" values="javascript"> Javascript <br> 
+    
+         </p>
+         <label for="txtArea"> Informe a sua área de interesse: </label>
+           <p>
+       <select id="txtArea" name="area">>
+       <option values="bd"> Banco de Dados </option>
+       </option values="lp"> Linguagem de Programação </option>
+       </option values="ed"> Estrutura de Dados </option>
+       </option values="ia"> Interligência Artificial </option>
+       </option values="rd"> Redes de Computadores </option>
+       <select>
+         <p>
+       <label for="txtPerfil"> Perfil Profissional </label>
+         <p>
+       <textarea style="resize:none;" id="txtPerfil" name="perfil"  rows="5"
+         cols="50">
+       </textarea>    
+         </p>
+       <input type="submit"  values="Enviar">
+       <input type="reset"   values="limpar">
+         <p>a
+    </fieldset>
+  </form>
+</body>
+
+</html>
